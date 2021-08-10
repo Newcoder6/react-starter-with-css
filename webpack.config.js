@@ -16,8 +16,11 @@ module.exports = {
         exclude: /node_modules/,
         use: [
           'style-loader',
-          options: {
-            modules: true,
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true,
+            },
           },
         ],
       },
