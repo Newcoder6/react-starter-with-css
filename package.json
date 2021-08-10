@@ -1,12 +1,10 @@
 {
-  "name": "react-tutorial",
+  "name": "react-starter-kit-with-css-modules",
   "version": "1.0.0",
-  "description": "",
+  "description": "### React starter files with CSS Modules",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve --config ./webpack.config.js --mode development",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "start": "webpack serve --config ./webpack.config.js --mode development"},
   "keywords": [],
   "author": "Newcoder6",
   "license": "MIT",
@@ -25,5 +23,13 @@
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Newcoder6/react-starter-with-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Newcoder6/react-starter-with-css/issues"
+  },
+  "homepage": "https://github.com/Newcoder6/react-starter-with-css#readme"
 }
